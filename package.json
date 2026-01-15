@@ -17,8 +17,15 @@
   ],
   "license": "MIT",
   "type": "module",
-  "main": "dist/ehgl.js",
-  "module": "dist/index.js",
+  "main": "dist/epiviz.heatmap.gl.js",
+  "module": "dist/epiviz.heatmap.gl.js",
+  "types": "dist/epiviz.heatmap.gl.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/epiviz.heatmap.gl.js",
+      "require": "./dist/index.js"
+    }
+  },
   "dependencies": {
     "d3-axis": "^3.0.0",
     "d3-scale": "^4.0.2",
