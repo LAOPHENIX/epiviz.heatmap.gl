@@ -23,7 +23,7 @@
   "exports": {
     ".": {
       "import": "./dist/epiviz.heatmap.gl.js",
-      "require": "./dist/index.js"
+      "types": "./dist/epiviz.heatmap.gl.d.ts"
     }
   },
   "dependencies": {
